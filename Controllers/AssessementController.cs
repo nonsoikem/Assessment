@@ -28,7 +28,7 @@ namespace Assessment.Api.Controllers
 
             if(result == null)
             {
-                return BadRequest("Invalid country code");
+                return BadRequest("invalid country code");
             }
 
             return Ok(result);
